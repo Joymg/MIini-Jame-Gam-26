@@ -21,9 +21,13 @@ namespace Procedural_Mesh
             Rotation = Quaternion.LookRotation(forward);
         }
 
-        public Vector3 LocalToWorld(Vector3 localSpacePosition)
+        public Vector3 LocalToWorldPosition(Vector3 localSpacePosition)
         {
             return Position + Rotation * localSpacePosition;
+        }
+        public Vector3 LocalToWorldVector(Vector3 localSpacePosition)
+        {
+            return Rotation * localSpacePosition;
         }
         
     }

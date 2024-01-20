@@ -12,5 +12,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306e884e6e374b9ebf68722f1b2d5710, type: 3}
   m_Name: New Mesh 2D
   m_EditorClassIdentifier: 
-  _vertices: []
-  _lineIndices: 
+  Vertices:
+  - Point: {x: 3, y: 0}
+    Normal: {x: 0, y: 1}
+    U: 0.171
+  - Point: {x: 3, y: 0}
+    Normal: {x: -0.07071068, y: 0.07071068}
+    U: 0.171
+  - Point: {x: 4, y: 1}
+    Normal: {x: -0.07071068, y: 0.07071068}
+    U: 0.116
+  - Point: {x: 4, y: 1}
+    Normal: {x: 0, y: 1}
+    U: 0.116
+  - Point: {x: 5, y: 1}
+    Normal: {x: 0, y: 1}
+    U: 0.77
+  - Point: {x: 5, y: 1}
+    Normal: {x: 1, y: 0}
+    U: 0.77
+  - Point: {x: 5, y: -1}
+    Normal: {x: 1, y: 0}
+    U: 0
+  - Point: {x: 5, y: -1}
+    Normal: {x: 0, y: -1}
+    U: 1
+  - Point: {x: -5, y: -1}
+    Normal: {x: 0, y: -1}
+    U: 0.613
+  - Point: {x: -5, y: -1}
+    Normal: {x: -1, y: 0}
+    U: 0.574
+  - Point: {x: -5, y: 1}
+    Normal: {x: -1, y: 0}
+    U: 0.497
+  - Point: {x: -5, y: 1}
+    Normal: {x: 0, y: 1}
+    U: 0.497
+  - Point: {x: -4, y: 1}
+    Normal: {x: 0, y: 1}
+    U: 0.458
+  - Point: {x: -4, y: 1}
+    Normal: {x: 0.07071068, y: -0.07071068}
+    U: 0.458
+  - Point: {x: -3, y: 0}
+    Normal: {x: 0.07071068, y: -0.07071068}
+    U: 0.403
+  - Point: {x: -3, y: 0}
+    Normal: {x: 0, y: 1}
+    U: 0.403
+  LineIndices: 0f000000000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000
